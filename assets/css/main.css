@@ -13,9 +13,7 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: #555;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+	height:100vh;
 }
 
 /* Titles */
@@ -79,15 +77,17 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
-	margin-top: 50px;
 	padding-top:25px;
 	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 300px;
 	width: 100%;
+	min-height: 300px;
+	position: relative;
 	
+	-webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+	background-attachment: top;
+	background-position: center top;
+	background: url(../img/header-bg.jpg) no-repeat center top;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -120,42 +120,51 @@ a:after {
 	margin-top: 15px;
 }
 
+#headerwrap .title {
+	padding-top: 150px;
+	text-align: center;
+}
+
 
 /* Footer Wrap */
 
-#f {
+#content {
 	background: #000000;
-	text-align: center
+	text-align: center;
 }
 
-#f h3 {
+#content h3 {
 	color: white;
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;	
 }
 
-#f i {
+#content i {
 	font-size: 8px;
 	color: #fff;
     padding: 3px;
 }
 
-#f p {
+#content p {
 	font-size: 20px;
 	color: #f2f2f2;
 }
 
-#f img {
+#content img {
 	text-align: center;
 }
 
-#f input.text {
+#content input.text {
 	border-radius-left-side:10px;
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	padding-left:	5px;
 	padding-right:	5px;
+}
+
+#footer {
+	min-height: 50px;
 }
 
 input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle), .input-group .form-control:first-child {
