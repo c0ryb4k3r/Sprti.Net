@@ -82,7 +82,7 @@ a:after {
 	width: 100%;
 	min-height: 300px;
 	position: relative;
-	
+
 	-webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 	background-attachment: top;
@@ -137,7 +137,7 @@ a:after {
 	color: white;
 	font-size: 28px;
 	font-weight: 700;
-	letter-spacing: 1px;	
+	letter-spacing: 1px;
 }
 
 #content i {
@@ -176,8 +176,8 @@ input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-b
 
 .menu {
 	position: fixed;
-	right: -200px;
-	width: 260px;
+	right: -240px;
+	width: 300px;
 	height: 100%;
 	top: 0;
 	z-index: 10;
@@ -193,7 +193,7 @@ input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-b
 	top: 0;
 	left: 60px;
 	background: #1a1a1a;
-	width: 200px;
+	width: 225px;
 	height: 100%;
 }
 
@@ -239,7 +239,7 @@ input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-b
 .menu a > i {
 	float: left;
 	display: inline-block;
-	vertical-align: middle; 
+	vertical-align: middle;
 	text-align: left;
 	width: 25px;
 	font-size: 14px;
@@ -328,5 +328,3 @@ input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-b
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
 }
-
-
